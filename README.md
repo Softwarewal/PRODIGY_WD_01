@@ -1,6 +1,8 @@
+<<<<<<< HEAD
 # 🌐 Interactive Navigation Menu Project
 
-An elegant, responsive, and interactive navigation menu built with **HTML**, **CSS**, and **JavaScript**. This project demonstrates smooth scroll behavior, dynamic navbar styling on scroll, and engaging hover effects — making it ideal for landing pages, personal portfolios, or modern business websites.
+An elegant, responsive, and interactive navigation menu built with
+**HTML**, **CSS**, and **JavaScript**. This project demonstrates smooth scroll behavior, dynamic navbar styling on scroll, and engaging hover effects — making it ideal for landing pages, personal portfolios, or modern business websites.
 
 ---
 
@@ -49,5 +51,9 @@ Each section is clearly defined:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Softwarewal/PRODIGY_WD_01.git
 
+=======
+# PRODIGY_WD_01
+Responsive Login Page
+>>>>>>> 963dce601ffcb2366369fd56602e3a07d83b7ad9
