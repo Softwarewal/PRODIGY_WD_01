@@ -1,0 +1,59 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fixed navbar styles */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+nav.scrolled {
+  background-color: #0066cc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+/* Dummy sections for scroll */
+section {
+  height: 100vh;
+  padding: 4rem;
+  color: #333;
+}
+
+#home { background: #e6f0ff; }
+#services { background: #d9eafc; }
+#about { background: #cce0f5; }
+#contact { background: #b3d1f0; }
